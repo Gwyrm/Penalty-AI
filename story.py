@@ -202,6 +202,9 @@ def main():
         # held while the voice-over talks. `head` plays at natural speed; `tail`
         # is stretched to make the group span its segment.
         groups = [
+            ("question", None,
+             lambda h: card(sink, fonts, ["Comment marquer", "son penalty", "à TOUS les coups ?"],
+                            "", hold=h, bg=bg)),
             ("hook", None,
              lambda h: card(sink, fonts, ["DEUX IA.", "AUCUNE RÈGLE.", "JUSTE DES PENALTYS."],
                             "But ou arrêt — elles apprennent seules.", hold=h, bg=bg)),

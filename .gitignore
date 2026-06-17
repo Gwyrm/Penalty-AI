@@ -9,7 +9,7 @@ runs/*.mp4
 # voix off (régénérée par voiceover.py + tiktok-ia-playbook/tts.py)
 runs/voice/
 runs/*.wav
-runs/tts.log
+runs/*.log
 # keep the sample figures committed for the README
 !runs/convergence.png
 !runs/heatmap_final.png
